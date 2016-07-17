@@ -27,15 +27,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         <activity
             android:name="org.visualink.displee.gui.CaptureActivity"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
+        
         <activity
             android:name="org.visualink.displee.gui.ResultActivity"
             android:configChanges="orientation|screenSize" >
         </activity>
+        
         <activity
             android:name="org.visualink.displee.gui.LibraryActivity"
             android:configChanges="orientation|screenSize" >
